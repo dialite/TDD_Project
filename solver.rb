@@ -1,3 +1,7 @@
 class Solver
-  def factorial(num) end
+  def factorial(number)
+    return unless number.zero?
+
+    1
+  end
 end
