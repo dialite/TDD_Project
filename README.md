@@ -29,16 +29,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library <a name="about-project"></a>
+# 📖 TDD Project <a name="about-project"></a>
 
-Implementation of a classes and objects with encapsulation and inheritance in Ruby for a School Library that formats inputs.
+Implementation of TDD test.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby</a></li>
+    <li><a href="https://github.com/dialite/TDD_Project.git">Ruby</a></li>
   </ul>
 
 <!-- GETTING STARTED -->
@@ -49,7 +49,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-To run this project you need to have installed [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and a code editor, we are using [Visual Studio Code](https://code.visualstudio.com/download) with Code runner extension, this is a [video](https://www.youtube.com/watch?v=bDSIzatb1N4) explaining how to configure Code runner.
+To run this project you need to have installed [Ruby](https://github.com/dialite/TDD_Project.git) and a code editor, we are using [Visual Studio Code](https://code.visualstudio.com/download) with Code runner extension, this is a [video](https://www.youtube.com/watch?v=bDSIzatb1N4) explaining how to configure Code runner.
 
 ### Setup
 
@@ -58,7 +58,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/dialite/OOP_school_library_ruby.git
+  git clone https://github.com/dialite/TDD_Project.gitgit
 ```
 
 ### Usage
