@@ -24,8 +24,22 @@ describe Solver do
       expect(@solver.reversal('hello world')).to eq 'dlrow olleh'
     end
 
-    it 'Should return enter a string when the argument is a number' do
+    it 'taht should return enter a string when the argument is a number' do
       expect(@solver.reversal(10)).to eq 'Please enter a string'
+    end
+  end
+
+  context 'Testing for the method FizzBuzz' do
+    it 'that should return fizz when the argument is divisible by 3' do
+      expect(@solver.fizzbuzz(3)).to eq 'fizz'
+    end
+
+    it 'that should return buzz when the argument is divisible by 5' do
+      expect(@solver.fizzbuzz(5)).to eq 'buzz'
+    end
+
+    it 'that should return fizzbuzz when the argument is divisible by 5 and 3' do
+      expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
     end
   end
 end
