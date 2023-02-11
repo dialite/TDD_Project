@@ -21,11 +21,11 @@ describe Solver do
 
   context 'Testing for the reverse method ' do
     it 'should return "dlrow olleh" when the given argument is "hello world"' do
-      expect(@solver.reversal('hello world')).to eq 'dlrow olleh'
+      expect(@solver.reverse('hello world')).to eq 'dlrow olleh'
     end
 
     it 'taht should return enter a string when the argument is a number' do
-      expect(@solver.reversal(10)).to eq 'Please enter a string'
+      expect(@solver.reverse(10)).to eq 'Please enter a string'
     end
   end
 

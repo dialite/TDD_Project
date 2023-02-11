@@ -7,7 +7,7 @@ class Solver
     end
   end
 
-  def reversal(words)
+  def reverse(words)
     words.is_a?(String) ? words.reverse : 'Please enter a string'
   end
 
